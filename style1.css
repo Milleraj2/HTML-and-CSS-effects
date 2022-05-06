@@ -1,0 +1,53 @@
+#pretty3 {
+    color: teal;
+}
+#pretty2 {
+    color: purple ;
+}
+#pretty1 {
+    color: pink;
+}
+textarea {
+    color:red;
+}
+* Force scrollbars onto browser window */
+body {
+margin-bottom: 200%;
+}
+
+/* Box styles */
+.myBox {
+border: none;
+padding: 5px;
+font: 24px/36px sans-serif;
+width: 200px;
+height: 200px;
+overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 12px;
+}
+
+::-webkit-scrollbar-track:vertical {
+background: -webkit-linear-gradient(top, white, pink); 
+}
+
+::-webkit-scrollbar-track:horizontal {
+background: -webkit-linear-gradient(left, white, purple); 
+}
+
+::-webkit-scrollbar-thumb {
+background: black;  
+border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: white;  
+}
